@@ -10,9 +10,9 @@ ssh コマンド　サーバーへのアクセス
 ssh -i キーのファイル ec2-user@作成されているipアドレス
 
 ### 接続後のサーバー起動
-- sudo amazon-linux-extras install -y nginx1 
- > awsでnginxのインストール
-- sudo systemctl enable nginx
- > 起動したいシステムサービス自動稼働の有効させる
-- sudo systemctl start nginx
- > 起動したいシステムサービスを起動する
+- awsでnginxのインストール
+ > sudo amazon-linux-extras install -y nginx1 
+- 起動したいシステムサービス自動稼働の有効させる
+ > sudo systemctl enable nginx
+- 起動したいシステムサービスを起動する
+ > sudo systemctl start nginx
